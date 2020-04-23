@@ -29,8 +29,6 @@ void push(struct StackNode** root, int data)
 
     stackNode->next = *root; 
     *root = stackNode;
-
-    // printf("%d pushed to stack\n", data); 
 } 
   
 int pop(struct StackNode** root) 
@@ -79,24 +77,12 @@ int check(char c1, char c2)
 int main() 
 {
     struct StackNode* root = NULL; 
-  
-    /*
-    push(&root, 10); 
-    push(&root, 20); 
-    push(&root, 30); 
-    printf("Top element is %d\n", peek(root)); 
-    printf("%d popped from stack\n", pop(&root)); 
-    printf("Top element is %d\n", peek(root)); 
-    printf("%d popped from stack\n", pop(&root)); 
-    printf("Top element is %d\n", peek(root)); 
-    printf("%d popped from stack\n", pop(&root)); 
-    printf("Top element is %d\n", peek(root)); 
-    */
-    
     int c;
     
     while ((c = getchar()) != EOF)
     {
+        // if (c == '\n') continue;
+
         printf("\n");
         
         if (c == '{' || c == '(' || c == '[')
@@ -117,7 +103,9 @@ int main()
         {   
             if (root == NULL)
             {
-                printf("\nIBALANCED -> STACK EXHAUSTED\n");
+                printf("\nEXP: [NON BALANCED] -> STACK EXHAUSTED\n");
+                printf("\n");
+
                 return 0;
             }
             else
@@ -126,7 +114,9 @@ int main()
                 
                 if (!check(pop(&root), c))
                 {
-                    printf("\nINBALANCED -> UNMATCHED CLOSURE TYPE\n");
+                    printf("\nEXP: [NON BALANCED] -> UNMATCHED CLOSURE SYMBOLS\n");
+                    printf("\n");
+
                     return 0;
                 }
             }
@@ -145,13 +135,13 @@ int main()
     if (root == NULL)
     {
         printf("\n");
-        printf("\nBALANCED\n");
+        printf("\nEXP: [BALANCED]\n");
         printf("\n");
     }
     else
     {
         printf("\n");
-        printf("\nINBALANCED -> STACK NOT YET EMPTY\n");
+        printf("\nEXP: [NON BALANCED] -> STACK NOT YET EMPTY\n");
         printf("\n");
     }
         
