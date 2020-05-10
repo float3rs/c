@@ -147,8 +147,6 @@ void display(struct node* head_ptr)
         
         return;
     }
-
-    
     
     if ((*head_ptr).next_ptr == NULL)
     {
@@ -168,21 +166,7 @@ void display(struct node* head_ptr)
         printf("\n");
         return;
     }
-    
-
-    // *tail_ptr_ptr = *head_ptr_ptr;
-
-    // printf("\n");
-
-    // while ((**tail_ptr_ptr).next_ptr != NULL)
-    // {
-    //     printf("[ %d ]\n", (**tail_ptr_ptr).data);
-    // }
-
-    // return;
 }
-
-
 
 int main()
 {
