@@ -1,5 +1,6 @@
 # include <stdio.h>
-#include <stdlib.h>
+# include <stdlib.h>
+# include <float.h>
 
 # define SIZE 7
 
@@ -46,19 +47,25 @@ void enqueue(float x)
     return;
 }
 
-int dequeue()
+float dequeue()
 {
+    float f = FLT_MIN;
+    
     if ((front_ptr == NULL) && (rear_ptr == NULL))
     {
         printf("\n|-----------|\n");
         printf(  "| UNDERFLOW |\n");
         printf(  "|-----------|\n");
 
-        return 0;
+        return f;
     }
 
     if ((*front_ptr).next_ptr == front_ptr)
     {   
+        f = (*front_ptr).data;
+        
+        printf("\n# DATA = [ %f ]\n", f);
+
         front_ptr = NULL;
         rear_ptr = NULL;
 
@@ -68,6 +75,10 @@ int dequeue()
     }
     else
     {
+        f = (*front_ptr).data;
+
+        printf("\n# DATA = [ %f ]\n", f);
+        
         front_ptr = (*front_ptr).next_ptr;
         (*rear_ptr).next_ptr = front_ptr;
         
@@ -76,7 +87,7 @@ int dequeue()
         printf(  "|----------|\n");
     }
 
-    return 1;
+    return f;
 }
 
 void display()
@@ -94,19 +105,19 @@ void display()
 
     if ((*i_ptr).next_ptr == i_ptr)
     {
-        printf("\n[%f]\n", (*front_ptr).data);
+        printf("\n[ %f ]\n", (*front_ptr).data);
         return;
     }
     else
     {
         printf("\n");
         
-        printf("[%f]\n", (*i_ptr).data);
+        printf("[ %f ]\n", (*i_ptr).data);
         i_ptr = (*i_ptr).next_ptr;
 
         while (i_ptr != front_ptr)
         {
-            printf("[%f]\n", (*i_ptr).data);
+            printf("[ %f ]\n", (*i_ptr).data);
             i_ptr = (*i_ptr).next_ptr;
         }
         return;
@@ -120,13 +131,12 @@ int main()
     
     float item;
 
-    printf("\nSIZE: %d\n", SIZE);
-
     while (choise != 0)
     {
         printf("\n");
-        printf("count = %d\n", count);
+        printf("COUNT: %d/%d\n", count, SIZE);
         printf("\n");
+        
         printf("[1] -> ENQUEUE\n");
         printf("[2] -> DEQUEUE\n");
         printf("[3] -> DISPLAY\n");
@@ -141,12 +151,10 @@ int main()
                         printf("\nINT: ");
                         scanf("%f", &item);
 
-                        if (count <= SIZE)
+                        if (count < SIZE)
                         {
                             enqueue(item);
                             count++;
-
-                            break;
                         }
                         else
                         {
@@ -154,8 +162,11 @@ int main()
                             printf(  "| OVERFLOW |\n");
                             printf(  "|----------|\n");
                         }
+
+                        break;
+
             case 2:
-                        if (dequeue())
+                        if (dequeue() != FLT_MIN)
                         {
                             count--;
                         }

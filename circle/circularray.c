@@ -1,4 +1,6 @@
 # include <stdio.h>
+# include <limits.h>
+
 # define SIZE 5
 
 int circularray[SIZE];
@@ -6,76 +8,87 @@ int circularray[SIZE];
 int front = -1;
 int rear = -1;
 
-void enqueue (int item)
+void enqueue (int x)
 {
     if ((front == -1) &&  (rear == -1))
     {
-        printf("\n|-----||-----|\n");
-        printf(  "|     ||     | <- [ %d ]\n", item);
-        printf(  "|-----||-----|\n\n");
+        printf("\n|----------------|\n");
+        printf(  "| QUEUE: CREATED |\n");
+        printf(  "|----------------|\n\n");
 
         front = 0;
         rear = 0;
 
-        circularray[rear] = item;
+        circularray[rear] = x;
         return;
     }
     
     if (((rear + 1) % SIZE) == front)
     {
-        printf("\n<!> //////// <!>\n");
-        printf("<!> OVERFLOW <!>\n");
-        printf("<!> //////// <!>\n\n");
+        printf("\n|----------|\n");
+        printf(  "| OVERFLOW |\n");
+        printf(  "|----------|\n\n");
 
         return;
     }
     else
     {
         
-        printf("\n|-----||-----|\n");
-        printf(  "|  X  ||     | <- [ %d ]\n", item);
-        printf(  "|-----||-----|\n\n");
+        printf("\n|----------|\n");
+        printf(  "| ENQUEUED |\n");
+        printf(  "|----------|\n\n");
 
         rear = (rear + 1) % SIZE;
 
-        circularray[rear] = item;
+        circularray[rear] = x;
 
         return;
     }
 }
 
-void dequeue()
+int dequeue()
 {
+    int data = INT_MIN;
+    
     if ((front == -1) && (rear == -1))
     {
         
-        printf("\n<!> ///////// <!>\n");
-        printf("<!> UNDERFLOW <!>\n");
-        printf("<!> ///////// <!>\n\n");
-        return;
+        printf("\n|-----------|\n");
+        printf(  "| UNDERFLOW |\n");
+        printf(  "|-----------|\n\n");
+        
+        return data;
     }
     
     if (front == rear)
     {
         
-        printf("\n                   |-----||-----|\n");
-        printf(  " [ %10d ] <- |     ||     |\n", circularray[front]);
-        printf(  "                   |-----||-----|\n\n");
+        data = circularray[front];
+        
+        printf("\n# DEQUEUED = [ %d ]\n", data);
 
         front = -1;
         rear = -1;
 
-        return;
+        printf("\n|------------------|\n");
+        printf(  "| QUEUE: DESTROYED |\n");
+        printf(  "|------------------|\n\n");
+
+        return data;
     }
     else
     {
-        printf("\n                   |-----||-----|\n");
-        printf(  " [ %10d ] <- |     ||  X  |\n", circularray[front]);
-        printf(  "                   |-----||-----|\n\n");
+        data = circularray[front];
+        
+        printf("\n# DATA = [ %d ]\n", data);
+        
+        printf("\n|----------|\n");
+        printf(  "| DEQUEUED |\n");
+        printf(  "|----------|\n\n");
         
         front = (front + 1) % SIZE;
 
-        return;
+        return data;
     }
 }
 
@@ -87,7 +100,7 @@ void display()
     {
         printf("\n|-------|\n");
         printf(  "| EMPTY |\n");
-        printf(  "|-------|\n");
+        printf(  "|-------|\n\n");
     }
     else
     {
@@ -95,25 +108,21 @@ void display()
 
         if (((rear + 1) % SIZE) == frontCursor)
         {
-            printf("[ %d ]", circularray[frontCursor]);
+            printf("[ %10d ]\n", circularray[frontCursor]);
             frontCursor = (frontCursor + 1) % SIZE;
         }
         
         while (((rear + 1) % SIZE) != frontCursor)
         {
-            printf("[ %d ]", circularray[frontCursor]);
+            printf("[ %10d ]\n", circularray[frontCursor]);
             frontCursor = (frontCursor + 1) % SIZE;
         }
 
         printf("\n");
     }
 
-    printf("\n");
     return;
 }
-
-
-
 
 int main()
 {
@@ -158,10 +167,11 @@ int main()
                         break;
 
             default:
-                        printf("\n> INVALID <\n\n");
+                        printf("\n|---------|\n");
+                        printf(  "| INVALID |\n");
+                        printf(  "|---------|\n\n");
         }
     }
 
     return 0;
-
 }
