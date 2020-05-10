@@ -1,7 +1,7 @@
 # include <stdio.h>
 # include <limits.h>
 
-# define SIZE 5
+# define SIZE 4
 
 int circularray[SIZE];
 
