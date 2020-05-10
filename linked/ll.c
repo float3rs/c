@@ -68,27 +68,6 @@ void list(struct node** head_ptr_ptr, int x)
         printf("TRAVERSED: %d NODES\n", count+1);
 
         return;
-
-
-        // count = 0;
-        
-        // *tail_ptr_ptr = *head_ptr_ptr;
-        
-        // while ((**tail_ptr_ptr).next_ptr != NULL)
-        // {
-        //     *tail_ptr_ptr = (**tail_ptr_ptr).next_ptr;
-        //     count++;
-        // }
-
-        // printf("\n# TRAVERSED: %d NODES\n", count);
-
-        // *tail_ptr_ptr = new_ptr;
-
-        // printf("\n|--------|\n");
-        // printf(  "| LISTED |\n");
-        // printf(  "|--------|\n\n");
-
-        // return;
     }
 }
 
