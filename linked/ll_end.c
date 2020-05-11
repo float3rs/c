@@ -71,11 +71,13 @@ void list(struct node** head_ptr_ptr, int x)
     }
 }
 
-int unlist(struct node** head_ptr_ptr)
+int unlist(struct node** head_ptr_ptr, int pos)
 {
+    int count = 0;
     int x;
 
      struct node* tail_ptr = *head_ptr_ptr;
+     struct node* pretail_ptr = *head_ptr_ptr;
 
     if (*head_ptr_ptr == NULL)
     {
@@ -102,15 +104,43 @@ int unlist(struct node** head_ptr_ptr)
     }
     else
     {
-        x = (**head_ptr_ptr).data;
+        if (pos == 4)
+        {
+            x = (**head_ptr_ptr).data;
 
-        printf("\nRETURNED: [ %d ]\n", x);
+            printf("\nRETURNED: [ %d ]\n", x);
 
-        *head_ptr_ptr = (**head_ptr_ptr).next_ptr;
+            *head_ptr_ptr = (**head_ptr_ptr).next_ptr;
 
-        printf("\n|----------|\n");
-        printf(  "| UNLISTED |\n");
-        printf(  "|----------|\n\n");
+            printf("\n|----------|\n");
+            printf(  "| UNLISTED |\n");
+            printf(  "|----------|\n\n");
+        }
+
+        if (pos == 5)
+        {
+            while ((*tail_ptr).next_ptr != NULL)
+            {
+                tail_ptr = (*tail_ptr).next_ptr;
+                count++;
+            }
+
+            x = (*tail_ptr).data;
+
+            printf("\nFOUND: %d NODES\n", count+1);
+            printf("RETURNED: [ %d ]\n", x);
+
+            for (int i = 0; i < count-1; i++)
+            {
+                pretail_ptr = (*pretail_ptr).next_ptr;
+            }
+
+            (*pretail_ptr).next_ptr = NULL;
+
+            printf("\n|----------|\n");
+            printf(  "| UNLISTED |\n");
+            printf(  "|----------|\n\n");
+        }
 
         return x;
     }
@@ -152,6 +182,7 @@ void display(struct node* head_ptr)
 int main()
 {
     int choise = -1;
+    int position = 0;
     int item;
     
     struct node* head_ptr = NULL;
@@ -178,7 +209,26 @@ int main()
                         break;
 
             case 2:
-                        unlist(&head_ptr);
+                        while (position != 4 && position != 5)
+                        {
+                            printf("\n");
+                            printf("[4] -> FIRST\n");
+                            printf("[5] -> LAST\n\n");
+
+                            printf("? "); 
+                            scanf("%d", &position);
+
+                            if (position != 4 && position != 5)
+                            {
+                                printf("\n|---------|\n");
+                                printf(  "| INVALID |\n");
+                                printf(  "|---------|\n\n");
+                            }
+                        }
+
+                        unlist(&head_ptr, position);
+                        position = 0;
+
                         break;
 
             case 3:

@@ -12,7 +12,7 @@ void list(struct node** head_ptr_ptr, char x)
     struct node* new_ptr;
     new_ptr = (struct node*) malloc(sizeof(struct node));
     
-    struct node* temp_ptr = *head_ptr_ptr;
+    struct node* tail_ptr = *head_ptr_ptr;
     int count = 0;
 
     if (new_ptr == NULL)
@@ -50,14 +50,14 @@ void list(struct node** head_ptr_ptr, char x)
         }
         else
         {
-            while ((*temp_ptr).next_ptr != NULL)
+            while ((*tail_ptr).next_ptr != NULL)
             {
-                temp_ptr = (*temp_ptr).next_ptr;
+                tail_ptr = (*tail_ptr).next_ptr;
                 count++;
             }
         }
         
-        (*temp_ptr).next_ptr = new_ptr;
+        (*tail_ptr).next_ptr = new_ptr;
 
         printf("\n|--------|\n");
         printf(  "| LISTED |\n");
@@ -115,7 +115,7 @@ char unlist(struct node** head_ptr_ptr)
 
 void display(struct node* head_ptr)
 {
-    struct node* temp_ptr = head_ptr;
+    struct node* tail_ptr = head_ptr;
     
     if (head_ptr == NULL) 
     {
@@ -133,13 +133,13 @@ void display(struct node* head_ptr)
     }
     else
     {
-        while ((*temp_ptr).next_ptr != NULL)
+        while ((*tail_ptr).next_ptr != NULL)
         {
-            printf("\n[ %c ]", (*temp_ptr).data);
-            temp_ptr = (*temp_ptr).next_ptr;
+            printf("\n[ %c ]", (*tail_ptr).data);
+            tail_ptr = (*tail_ptr).next_ptr;
         }
 
-        printf("\n[ %c ]", (*temp_ptr).data);
+        printf("\n[ %c ]", (*tail_ptr).data);
 
         printf("\n");
         return;
