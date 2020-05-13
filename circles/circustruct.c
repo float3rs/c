@@ -44,6 +44,7 @@ void enqueue(float x)
         printf(  "|----------|\n");
     }
     
+    // free(new_ptr);
     return;
 }
 
@@ -86,7 +87,6 @@ float dequeue()
         printf(  "| DEQUEUED |\n");
         printf(  "|----------|\n");
     }
-
     return f;
 }
 
@@ -120,6 +120,7 @@ void display()
             printf("[ %f ]\n", (*i_ptr).data);
             i_ptr = (*i_ptr).next_ptr;
         }
+
         return;
     }
 }
@@ -189,5 +190,4 @@ int main()
     }
 
     return 0;
-
 }
