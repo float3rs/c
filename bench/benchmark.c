@@ -10,9 +10,9 @@
 
 // #define SIZE 524288
 // #define SIZE 262144
-// #define SIZE 1024
+#define SIZE 1024
 
-#define SIZE SHRT_MAX
+// #define SIZE SHRT_MAX
 
 ///////////////////////////////////////////////////////////////////////////////
 // PRINTING FUNCTIONS /////////////////////////////////////////////////////////
@@ -20,48 +20,48 @@
 
 void syntax_print()
 {
-    printf("\n|----------------------------------|\n");
-    printf(  "| INVALID CALL ARGUEMENTS          |\n");
-    printf(  "| PROPER BENCHMARK SYNTAX:         |\n");
-    printf(  "|----------------------------------|\n");
-    printf(  "| ./benchmark nxyz [-xX] [--debug] |\n");           
-    printf(  "|----------------------------------|\n");
-    printf(  "|  size |--------------------------|\n");
-    printf(  "|-------|--------------------------|\n");
-    printf(  "| n = 0 |   3276 (SHT_MAX / 10)    |\n");
-    printf(  "| n = 1 |  32767 (SHT_MAX     )    |\n");
-    printf(  "| n = 2 | 327670 (SHT_MAX * 10)    |\n");
-    printf(  "|-------|--------------------------|\n");
-    printf(  "| range |--------------------------|\n");
-    printf(  "|-------|--------------------------|\n");
-    printf(  "| x = 0 | unique many              |\n");
-    printf(  "| x = 1 | few & large              |\n");
-    printf(  "| x = 2 | few & small              |\n");
-    printf(  "|-------|--------------------------|\n");
-    printf(  "| order |--------------------------|\n");
-    printf(  "|-------|--------------------------|\n");
-    printf(  "| y = 0 |      unsorted            |\n");
-    printf(  "| y = 1 |        sorted            |\n");
-    printf(  "| y = 2 | mostly sorted            |\n");
-    printf(  "| y = 3 |        sorted reversed   |\n");
-    printf(  "| y = 4 | mostly sorted reversed   |\n");
-    printf(  "|-------|--------------------------|\n");
-    printf(  "|  sort |--------------------------|\n");
-    printf(  "|-------|--------------------------|\n");
-    printf(  "| z = 0 |                      -   |\n");
-    printf(  "| z = 1 |         selection sort   |\n");
-    printf(  "| z = 2 |         insertion sort   |\n");
-    printf(  "| z = 3 |            bubble sort   |\n");
-    printf(  "| z = 4 |              quicksort   |\n");
-    printf(  "| z = 5 |                qsort()   |\n");
-    printf(  "|-------|--------------------------|\n");
-    printf(  "| timer |--------------------------|\n");
-    printf(  "|-------|--------------------------|\n");
-    printf(  "|   -m2 |       mean time / 3 runs |\n");
-    printf(  "|   -c8 | cumulative time / 9 runs |\n");
-    printf(  "|----------------------------------|\n");
-    printf(  "|       --debug: print arrays      |\n");
-    printf(  "|----------------------------------|\n\n");
+    printf("\n|------------------------------------|\n");
+    printf(  "| INVALID CALL ARGUEMENTS            |\n");
+    printf(  "| PROPER BENCHMARK SYNTAX:           |\n");
+    printf(  "|------------------------------------|\n");
+    printf(  "| ./benchmark nxyz [-xX] [--debug]   |\n");           
+    printf(  "|------------------------------------|\n");
+    printf(  "|  size |----------------------------|\n");
+    printf(  "|-------|----------------------------|\n");
+    printf(  "| n = 0 |   3276 (SHT_MAX / 10)      |\n");
+    printf(  "| n = 1 |  32767 (SHT_MAX     )      |\n");
+    printf(  "| n = 2 | 327670 (SHT_MAX * 10)      |\n");
+    printf(  "|-------|----------------------------|\n");
+    printf(  "| range |----------------------------|\n");
+    printf(  "|-------|----------------------------|\n");
+    printf(  "| x = 0 | unique many                |\n");
+    printf(  "| x = 1 | few & large                |\n");
+    printf(  "| x = 2 | few & small                |\n");
+    printf(  "|-------|----------------------------|\n");
+    printf(  "| order |----------------------------|\n");
+    printf(  "|-------|----------------------------|\n");
+    printf(  "| y = 0 |      unsorted              |\n");
+    printf(  "| y = 1 |        sorted              |\n");
+    printf(  "| y = 2 | mostly sorted              |\n");
+    printf(  "| y = 3 |        sorted reversed     |\n");
+    printf(  "| y = 4 | mostly sorted reversed     |\n");
+    printf(  "|-------|----------------------------|\n");
+    printf(  "|  sort |----------------------------|\n");
+    printf(  "|-------|----------------------------|\n");
+    printf(  "| z = 0 |                      -     |\n");
+    printf(  "| z = 1 |         selection sort     |\n");
+    printf(  "| z = 2 |         insertion sort     |\n");
+    printf(  "| z = 3 |            bubble sort     |\n");
+    printf(  "| z = 4 |              quicksort     |\n");
+    printf(  "| z = 5 |                qsort()     |\n");
+    printf(  "|-------|----------------------------|\n");
+    printf(  "| timer |----------------------------|\n");
+    printf(  "|-------|----------------------------|\n");
+    printf(  "| -m[X] |       mean time / X+1 runs |\n");
+    printf(  "| -c[X] | cumulative time / X+1 runs |\n");
+    printf(  "|------------------------------------|\n");
+    printf(  "|       --debug: print details       |\n");
+    printf(  "|------------------------------------|\n\n");
 }
 
 void array_print(long* r, int size)
@@ -354,6 +354,8 @@ int main(int argc, char *argv[])
     time_t start[9]; 
     time_t end[9];
 
+    // ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|
+
     if ((argc < 2) || (argc > 4))
     {
         syntax_print();
@@ -431,7 +433,7 @@ int main(int argc, char *argv[])
 
                     if (atoi(&argv[2][2]))
                     {
-                        repeats = atoi(&argv[2][2]);
+                        repeats = atoi(&argv[2][2]) +1;
                     }
                     else
                     {
@@ -447,7 +449,7 @@ int main(int argc, char *argv[])
                         
                         if (atoi(&argv[2][2]))
                         {
-                            repeats = atoi(&argv[2][2]);
+                            repeats = atoi(&argv[2][2]) +1;
                         }
                         else
                         {
@@ -478,12 +480,20 @@ int main(int argc, char *argv[])
 
     printf("\n");
 
+    // ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|
+    // FOR LOOP |~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|
+    // ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|
+    
     for (j = 0; j < repeats; j++)
     {
+        
         if (j == repeats -1) printf("   runs: %d\n", repeats);
         
         switch (argv[1][0])
         {
+            
+            // SIZE |~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|
+
             case '0':
 
                 if (j == repeats -1) printf("   size: %d keys\n", SIZE / 10);
@@ -527,6 +537,8 @@ int main(int argc, char *argv[])
                 }
 
                 break;
+
+            // SIZE |~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|
 
             case '1':
 
@@ -572,6 +584,8 @@ int main(int argc, char *argv[])
                 
                 break;
 
+            // SIZE |~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|
+
             case '2':
 
                 if (j == repeats -1) printf("   size: %d keys\n", SIZE * 10);
@@ -615,6 +629,8 @@ int main(int argc, char *argv[])
                 }
                 
                 break;
+
+            // SIZE |~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|
 
             default:
 
@@ -762,7 +778,7 @@ int main(int argc, char *argv[])
                 }
                 
                 if (j == repeats -1) result /= repeats;
-                if (j == repeats -1) printf(" result: %f (s)\n", (double) result / CLOCKS_PER_SEC);
+                if (j == repeats -1) printf(" result: %f (s)\n", (double) result * 1000 / CLOCKS_PER_SEC);
             }
             else
             {
@@ -777,14 +793,14 @@ int main(int argc, char *argv[])
                         result += (end[i] - start[i]);
                     }
 
-                    if (j == repeats -1) printf(" result: %f (s)\n", (double) result / CLOCKS_PER_SEC);
+                    if (j == repeats -1) printf(" result: %f (s)\n", (double) result * 1000 / CLOCKS_PER_SEC);
                 }
                 else
                 {
                     result = end[0] - start[0];
                     
                     if (j == repeats -1) printf("   time: direct\n");
-                    if (j == repeats -1) printf(" result: %f (s)\n", (double) result / CLOCKS_PER_SEC);
+                    if (j == repeats -1) printf(" result: %f (s)\n", (double) result * 1000 / CLOCKS_PER_SEC);
                 }
             }
         }
@@ -818,7 +834,6 @@ int main(int argc, char *argv[])
             printf("                sum / repeats = %ld\n", sum / (long) repeats);
 
             printf("\n");
-
         }
     }
 
