@@ -778,7 +778,7 @@ int main(int argc, char *argv[])
                 }
                 
                 if (j == repeats -1) result /= repeats;
-                if (j == repeats -1) printf(" result: %f (s)\n", (double) result * 1000 / CLOCKS_PER_SEC);
+                if (j == repeats -1) printf(" result: %f (ms)\n", (double) result * 1000 / CLOCKS_PER_SEC);
             }
             else
             {
@@ -793,14 +793,14 @@ int main(int argc, char *argv[])
                         result += (end[i] - start[i]);
                     }
 
-                    if (j == repeats -1) printf(" result: %f (s)\n", (double) result * 1000 / CLOCKS_PER_SEC);
+                    if (j == repeats -1) printf(" result: %f (ms)\n", (double) result * 1000 / CLOCKS_PER_SEC);
                 }
                 else
                 {
                     result = end[0] - start[0];
                     
                     if (j == repeats -1) printf("   time: direct\n");
-                    if (j == repeats -1) printf(" result: %f (s)\n", (double) result * 1000 / CLOCKS_PER_SEC);
+                    if (j == repeats -1) printf(" result: %f (ms)\n", (double) result * 1000 / CLOCKS_PER_SEC);
                 }
             }
         }
