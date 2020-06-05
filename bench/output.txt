@@ -3,7 +3,7 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: -
@@ -15,67 +15,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: selection
    time: mean
- result: 0.018000 (ms)
+ result: 13.216000 (ms)
 
 
 > 0002:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: insertion
    time: mean
- result: 0.009000 (ms)
+ result: 7.376000 (ms)
 
 
 > 0003:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: bubble
    time: mean
- result: 0.047000 (ms)
+ result: 51.435000 (ms)
 
 
 > 0004:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: quicksort
    time: mean
- result: 0.008000 (ms)
+ result: 0.439000 (ms)
 
 
 > 0005:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: qsort()
    time: mean
- result: 0.012000 (ms)
+ result: 0.342000 (ms)
 
 
 > 0010:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: sorted
    sort: -
@@ -87,67 +87,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: sorted
    sort: selection
    time: mean
- result: 0.014000 (ms)
+ result: 13.118000 (ms)
 
 
 > 0012:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: sorted
    sort: insertion
    time: mean
- result: 0.001000 (ms)
+ result: 0.015000 (ms)
 
 
 > 0013:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: sorted
    sort: bubble
    time: mean
- result: 0.029000 (ms)
+ result: 32.000000 (ms)
 
 
 > 0014:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: sorted
    sort: quicksort
    time: mean
- result: 0.015000 (ms)
+ result: 12.324000 (ms)
 
 
 > 0015:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: sorted
    sort: qsort()
    time: mean
- result: 0.001000 (ms)
+ result: 0.030000 (ms)
 
 
 > 0020:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: -
@@ -159,67 +159,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: selection
    time: mean
- result: 0.014000 (ms)
+ result: 12.772000 (ms)
 
 
 > 0022:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: insertion
    time: mean
- result: 0.002000 (ms)
+ result: 0.034000 (ms)
 
 
 > 0023:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: bubble
    time: mean
- result: 0.028000 (ms)
+ result: 31.243000 (ms)
 
 
 > 0024:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: quicksort
    time: mean
- result: 0.009000 (ms)
+ result: 8.207000 (ms)
 
 
 > 0025:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: qsort()
    time: mean
- result: 0.005000 (ms)
+ result: 0.178000 (ms)
 
 
 > 0030:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: -
@@ -231,67 +231,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: selection
    time: mean
- result: 0.014000 (ms)
+ result: 13.314000 (ms)
 
 
 > 0032:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: insertion
    time: mean
- result: 0.017000 (ms)
+ result: 15.295000 (ms)
 
 
 > 0033:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: bubble
    time: mean
- result: 0.060000 (ms)
+ result: 58.116000 (ms)
 
 
 > 0034:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: quicksort
    time: mean
- result: 0.015000 (ms)
+ result: 13.877000 (ms)
 
 
 > 0035:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: qsort()
    time: mean
- result: 0.006000 (ms)
+ result: 0.126000 (ms)
 
 
 > 0040:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: -
@@ -303,67 +303,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: selection
    time: mean
- result: 0.021000 (ms)
+ result: 16.785000 (ms)
 
 
 > 0042:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: insertion
    time: mean
- result: 0.020000 (ms)
+ result: 15.274000 (ms)
 
 
 > 0043:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: bubble
    time: mean
- result: 0.052000 (ms)
+ result: 58.282000 (ms)
 
 
 > 0044:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: quicksort
    time: mean
- result: 0.011000 (ms)
+ result: 5.534000 (ms)
 
 
 > 0045:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: qsort()
    time: mean
- result: 0.007000 (ms)
+ result: 0.227000 (ms)
 
 
 > 0100:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: -
@@ -375,67 +375,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: selection
    time: mean
- result: 0.017000 (ms)
+ result: 13.138000 (ms)
 
 
 > 0102:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: insertion
    time: mean
- result: 0.012000 (ms)
+ result: 8.266000 (ms)
 
 
 > 0103:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: bubble
    time: mean
- result: 0.047000 (ms)
+ result: 51.898000 (ms)
 
 
 > 0104:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: quicksort
    time: mean
- result: 0.008000 (ms)
+ result: 0.523000 (ms)
 
 
 > 0105:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: qsort()
    time: mean
- result: 0.008000 (ms)
+ result: 0.164000 (ms)
 
 
 > 0110:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: -
@@ -447,67 +447,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: selection
    time: mean
- result: 0.014000 (ms)
+ result: 13.904000 (ms)
 
 
 > 0112:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: insertion
    time: mean
- result: 0.001000 (ms)
+ result: 0.014000 (ms)
 
 
 > 0113:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: bubble
    time: mean
- result: 0.028000 (ms)
+ result: 32.034000 (ms)
 
 
 > 0114:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: quicksort
    time: mean
- result: 0.009000 (ms)
+ result: 0.637000 (ms)
 
 
 > 0115:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: qsort()
    time: mean
- result: 0.004000 (ms)
+ result: 0.106000 (ms)
 
 
 > 0120:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: -
@@ -519,67 +519,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: selection
    time: mean
- result: 0.014000 (ms)
+ result: 13.361000 (ms)
 
 
 > 0122:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: insertion
    time: mean
- result: 0.002000 (ms)
+ result: 0.014000 (ms)
 
 
 > 0123:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: bubble
    time: mean
- result: 0.031000 (ms)
+ result: 29.990000 (ms)
 
 
 > 0124:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: quicksort
    time: mean
- result: 0.008000 (ms)
+ result: 0.506000 (ms)
 
 
 > 0125:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: qsort()
    time: mean
- result: 0.005000 (ms)
+ result: 0.069000 (ms)
 
 
 > 0130:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: -
@@ -591,67 +591,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: selection
    time: mean
- result: 0.019000 (ms)
+ result: 13.335000 (ms)
 
 
 > 0132:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: insertion
    time: mean
- result: 0.020000 (ms)
+ result: 14.734000 (ms)
 
 
 > 0133:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: bubble
    time: mean
- result: 0.051000 (ms)
+ result: 57.091000 (ms)
 
 
 > 0134:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: quicksort
    time: mean
- result: 0.011000 (ms)
+ result: 3.499000 (ms)
 
 
 > 0135:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: qsort()
    time: mean
- result: 0.006000 (ms)
+ result: 0.071000 (ms)
 
 
 > 0140:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: -
@@ -663,67 +663,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: selection
    time: mean
- result: 0.021000 (ms)
+ result: 13.362000 (ms)
 
 
 > 0142:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: insertion
    time: mean
- result: 0.016000 (ms)
+ result: 16.164000 (ms)
 
 
 > 0143:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: bubble
    time: mean
- result: 0.050000 (ms)
+ result: 54.909000 (ms)
 
 
 > 0144:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: quicksort
    time: mean
- result: 0.011000 (ms)
+ result: 3.040000 (ms)
 
 
 > 0145:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: qsort()
    time: mean
- result: 0.007000 (ms)
+ result: 0.086000 (ms)
 
 
 > 0200:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: unsorted
    sort: -
@@ -735,67 +735,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: unsorted
    sort: selection
    time: mean
- result: 0.017000 (ms)
+ result: 12.559000 (ms)
 
 
 > 0202:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: unsorted
    sort: insertion
    time: mean
- result: 0.013000 (ms)
+ result: 7.152000 (ms)
 
 
 > 0203:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: unsorted
    sort: bubble
    time: mean
- result: 0.051000 (ms)
+ result: 52.622000 (ms)
 
 
 > 0204:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: unsorted
    sort: quicksort
    time: mean
- result: 0.008000 (ms)
+ result: 0.464000 (ms)
 
 
 > 0205:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: unsorted
    sort: qsort()
    time: mean
- result: 0.008000 (ms)
+ result: 0.165000 (ms)
 
 
 > 0210:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: sorted
    sort: -
@@ -807,67 +807,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: sorted
    sort: selection
    time: mean
- result: 0.014000 (ms)
+ result: 12.742000 (ms)
 
 
 > 0212:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: sorted
    sort: insertion
    time: mean
- result: 0.001000 (ms)
+ result: 0.013000 (ms)
 
 
 > 0213:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: sorted
    sort: bubble
    time: mean
- result: 0.028000 (ms)
+ result: 31.640000 (ms)
 
 
 > 0214:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: sorted
    sort: quicksort
    time: mean
- result: 0.009000 (ms)
+ result: 0.501000 (ms)
 
 
 > 0215:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: sorted
    sort: qsort()
    time: mean
- result: 0.004000 (ms)
+ result: 0.066000 (ms)
 
 
 > 0220:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: mostly sorted
    sort: -
@@ -879,67 +879,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: mostly sorted
    sort: selection
    time: mean
- result: 0.018000 (ms)
+ result: 12.577000 (ms)
 
 
 > 0222:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: mostly sorted
    sort: insertion
    time: mean
- result: 0.002000 (ms)
+ result: 0.014000 (ms)
 
 
 > 0223:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: mostly sorted
    sort: bubble
    time: mean
- result: 0.029000 (ms)
+ result: 31.035000 (ms)
 
 
 > 0224:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: mostly sorted
    sort: quicksort
    time: mean
- result: 0.009000 (ms)
+ result: 0.502000 (ms)
 
 
 > 0225:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: mostly sorted
    sort: qsort()
    time: mean
- result: 0.005000 (ms)
+ result: 0.068000 (ms)
 
 
 > 0230:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: sorted reversed
    sort: -
@@ -951,67 +951,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: sorted reversed
    sort: selection
    time: mean
- result: 0.019000 (ms)
+ result: 14.223000 (ms)
 
 
 > 0232:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: sorted reversed
    sort: insertion
    time: mean
- result: 0.018000 (ms)
+ result: 15.516000 (ms)
 
 
 > 0233:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: sorted reversed
    sort: bubble
    time: mean
- result: 0.051000 (ms)
+ result: 55.257000 (ms)
 
 
 > 0234:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: sorted reversed
    sort: quicksort
    time: mean
- result: 0.011000 (ms)
+ result: 3.422000 (ms)
 
 
 > 0235:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: sorted reversed
    sort: qsort()
    time: mean
- result: 0.007000 (ms)
+ result: 0.073000 (ms)
 
 
 > 0240:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: -
@@ -1023,67 +1023,67 @@
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: selection
    time: mean
- result: 0.020000 (ms)
+ result: 15.396000 (ms)
 
 
 > 0242:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: insertion
    time: mean
- result: 0.016000 (ms)
+ result: 16.432000 (ms)
 
 
 > 0243:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: bubble
    time: mean
- result: 0.055000 (ms)
+ result: 53.160000 (ms)
 
 
 > 0244:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: quicksort
    time: mean
- result: 0.011000 (ms)
+ result: 3.512000 (ms)
 
 
 > 0245:
 
 
    runs: 3
-   size: 102 keys
+   size: 3276 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: qsort()
    time: mean
- result: 0.006000 (ms)
+ result: 0.084000 (ms)
 
 
 > 1000:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: -
@@ -1095,67 +1095,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: selection
    time: mean
- result: 1.289000 (ms)
+ result: 1434.255000 (ms)
 
 
 > 1002:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: insertion
    time: mean
- result: 0.713000 (ms)
+ result: 845.066000 (ms)
 
 
 > 1003:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: bubble
    time: mean
- result: 5.201000 (ms)
+ result: 5734.631000 (ms)
 
 
 > 1004:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: quicksort
    time: mean
- result: 0.095000 (ms)
+ result: 25.090000 (ms)
 
 
 > 1005:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: qsort()
    time: mean
- result: 0.052000 (ms)
+ result: 2.057000 (ms)
 
 
 > 1010:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: sorted
    sort: -
@@ -1167,67 +1167,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: sorted
    sort: selection
    time: mean
- result: 1.220000 (ms)
+ result: 1260.780000 (ms)
 
 
 > 1012:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: sorted
    sort: insertion
    time: mean
- result: 0.005000 (ms)
+ result: 0.133000 (ms)
 
 
 > 1013:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: sorted
    sort: bubble
    time: mean
- result: 2.831000 (ms)
+ result: 2917.825000 (ms)
 
 
 > 1014:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: sorted
    sort: quicksort
    time: mean
- result: 0.108000 (ms)
+ result: 25.407000 (ms)
 
 
 > 1015:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: sorted
    sort: qsort()
    time: mean
- result: 0.024000 (ms)
+ result: 0.610000 (ms)
 
 
 > 1020:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: -
@@ -1239,67 +1239,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: selection
    time: mean
- result: 1.178000 (ms)
+ result: 1240.850000 (ms)
 
 
 > 1022:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: insertion
    time: mean
- result: 0.006000 (ms)
+ result: 0.137000 (ms)
 
 
 > 1023:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: bubble
    time: mean
- result: 2.910000 (ms)
+ result: 2920.856000 (ms)
 
 
 > 1024:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: quicksort
    time: mean
- result: 0.110000 (ms)
+ result: 24.620000 (ms)
 
 
 > 1025:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: qsort()
    time: mean
- result: 0.032000 (ms)
+ result: 0.610000 (ms)
 
 
 > 1030:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: -
@@ -1311,67 +1311,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: selection
    time: mean
- result: 1.408000 (ms)
+ result: 1243.555000 (ms)
 
 
 > 1032:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: insertion
    time: mean
- result: 1.548000 (ms)
+ result: 1434.119000 (ms)
 
 
 > 1033:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: bubble
    time: mean
- result: 5.246000 (ms)
+ result: 5080.678000 (ms)
 
 
 > 1034:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: quicksort
    time: mean
- result: 0.409000 (ms)
+ result: 461.402000 (ms)
 
 
 > 1035:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: qsort()
    time: mean
- result: 0.027000 (ms)
+ result: 0.678000 (ms)
 
 
 > 1040:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: -
@@ -1383,67 +1383,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: selection
    time: mean
- result: 1.377000 (ms)
+ result: 1242.228000 (ms)
 
 
 > 1042:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: insertion
    time: mean
- result: 1.357000 (ms)
+ result: 1472.082000 (ms)
 
 
 > 1043:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: bubble
    time: mean
- result: 4.872000 (ms)
+ result: 5083.110000 (ms)
 
 
 > 1044:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: quicksort
    time: mean
- result: 0.340000 (ms)
+ result: 385.357000 (ms)
 
 
 > 1045:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: qsort()
    time: mean
- result: 0.039000 (ms)
+ result: 0.750000 (ms)
 
 
 > 1100:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: -
@@ -1455,67 +1455,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: selection
    time: mean
- result: 1.209000 (ms)
+ result: 1233.487000 (ms)
 
 
 > 1102:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: insertion
    time: mean
- result: 0.726000 (ms)
+ result: 718.976000 (ms)
 
 
 > 1103:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: bubble
    time: mean
- result: 4.300000 (ms)
+ result: 5443.255000 (ms)
 
 
 > 1104:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: quicksort
    time: mean
- result: 0.101000 (ms)
+ result: 24.039000 (ms)
 
 
 > 1105:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: qsort()
    time: mean
- result: 0.053000 (ms)
+ result: 1.458000 (ms)
 
 
 > 1110:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: -
@@ -1527,67 +1527,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: selection
    time: mean
- result: 1.225000 (ms)
+ result: 1235.543000 (ms)
 
 
 > 1112:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: insertion
    time: mean
- result: 0.005000 (ms)
+ result: 0.127000 (ms)
 
 
 > 1113:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: bubble
    time: mean
- result: 2.792000 (ms)
+ result: 2906.190000 (ms)
 
 
 > 1114:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: quicksort
    time: mean
- result: 0.118000 (ms)
+ result: 25.032000 (ms)
 
 
 > 1115:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: qsort()
    time: mean
- result: 0.026000 (ms)
+ result: 0.609000 (ms)
 
 
 > 1120:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: -
@@ -1599,67 +1599,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: selection
    time: mean
- result: 1.184000 (ms)
+ result: 1233.270000 (ms)
 
 
 > 1122:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: insertion
    time: mean
- result: 0.005000 (ms)
+ result: 0.166000 (ms)
 
 
 > 1123:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: bubble
    time: mean
- result: 2.762000 (ms)
+ result: 2910.410000 (ms)
 
 
 > 1124:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: quicksort
    time: mean
- result: 0.114000 (ms)
+ result: 25.211000 (ms)
 
 
 > 1125:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: qsort()
    time: mean
- result: 0.026000 (ms)
+ result: 0.822000 (ms)
 
 
 > 1130:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: -
@@ -1671,67 +1671,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: selection
    time: mean
- result: 1.374000 (ms)
+ result: 1235.478000 (ms)
 
 
 > 1132:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: insertion
    time: mean
- result: 1.386000 (ms)
+ result: 1429.985000 (ms)
 
 
 > 1133:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: bubble
    time: mean
- result: 5.629000 (ms)
+ result: 5064.309000 (ms)
 
 
 > 1134:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: quicksort
    time: mean
- result: 0.466000 (ms)
+ result: 460.373000 (ms)
 
 
 > 1135:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: qsort()
    time: mean
- result: 0.025000 (ms)
+ result: 0.930000 (ms)
 
 
 > 1140:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: -
@@ -1743,67 +1743,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: selection
    time: mean
- result: 1.372000 (ms)
+ result: 1243.141000 (ms)
 
 
 > 1142:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: insertion
    time: mean
- result: 1.401000 (ms)
+ result: 1432.857000 (ms)
 
 
 > 1143:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: bubble
    time: mean
- result: 4.908000 (ms)
+ result: 5046.529000 (ms)
 
 
 > 1144:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: quicksort
    time: mean
- result: 0.337000 (ms)
+ result: 391.292000 (ms)
 
 
 > 1145:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: qsort()
    time: mean
- result: 0.030000 (ms)
+ result: 0.747000 (ms)
 
 
 > 1200:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: unsorted
    sort: -
@@ -1815,67 +1815,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: unsorted
    sort: selection
    time: mean
- result: 1.349000 (ms)
+ result: 1228.714000 (ms)
 
 
 > 1202:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: unsorted
    sort: insertion
    time: mean
- result: 0.716000 (ms)
+ result: 713.635000 (ms)
 
 
 > 1203:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: unsorted
    sort: bubble
    time: mean
- result: 4.412000 (ms)
+ result: 5494.714000 (ms)
 
 
 > 1204:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: unsorted
    sort: quicksort
    time: mean
- result: 0.096000 (ms)
+ result: 24.088000 (ms)
 
 
 > 1205:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: unsorted
    sort: qsort()
    time: mean
- result: 0.053000 (ms)
+ result: 1.504000 (ms)
 
 
 > 1210:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: sorted
    sort: -
@@ -1887,67 +1887,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: sorted
    sort: selection
    time: mean
- result: 1.318000 (ms)
+ result: 1228.051000 (ms)
 
 
 > 1212:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: sorted
    sort: insertion
    time: mean
- result: 0.006000 (ms)
+ result: 0.183000 (ms)
 
 
 > 1213:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: sorted
    sort: bubble
    time: mean
- result: 2.964000 (ms)
+ result: 2909.796000 (ms)
 
 
 > 1214:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: sorted
    sort: quicksort
    time: mean
- result: 0.113000 (ms)
+ result: 25.021000 (ms)
 
 
 > 1215:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: sorted
    sort: qsort()
    time: mean
- result: 0.025000 (ms)
+ result: 0.610000 (ms)
 
 
 > 1220:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: mostly sorted
    sort: -
@@ -1959,67 +1959,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: mostly sorted
    sort: selection
    time: mean
- result: 1.210000 (ms)
+ result: 1237.460000 (ms)
 
 
 > 1222:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: mostly sorted
    sort: insertion
    time: mean
- result: 0.006000 (ms)
+ result: 0.127000 (ms)
 
 
 > 1223:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: mostly sorted
    sort: bubble
    time: mean
- result: 2.751000 (ms)
+ result: 2909.294000 (ms)
 
 
 > 1224:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: mostly sorted
    sort: quicksort
    time: mean
- result: 0.112000 (ms)
+ result: 24.844000 (ms)
 
 
 > 1225:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: mostly sorted
    sort: qsort()
    time: mean
- result: 0.026000 (ms)
+ result: 0.612000 (ms)
 
 
 > 1230:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: sorted reversed
    sort: -
@@ -2031,67 +2031,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: sorted reversed
    sort: selection
    time: mean
- result: 1.505000 (ms)
+ result: 1234.732000 (ms)
 
 
 > 1232:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: sorted reversed
    sort: insertion
    time: mean
- result: 1.368000 (ms)
+ result: 1429.897000 (ms)
 
 
 > 1233:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: sorted reversed
    sort: bubble
    time: mean
- result: 5.113000 (ms)
+ result: 5073.018000 (ms)
 
 
 > 1234:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: sorted reversed
    sort: quicksort
    time: mean
- result: 0.415000 (ms)
+ result: 453.681000 (ms)
 
 
 > 1235:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: sorted reversed
    sort: qsort()
    time: mean
- result: 0.026000 (ms)
+ result: 0.629000 (ms)
 
 
 > 1240:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: -
@@ -2103,67 +2103,67 @@
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: selection
    time: mean
- result: 1.364000 (ms)
+ result: 1231.139000 (ms)
 
 
 > 1242:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: insertion
    time: mean
- result: 1.380000 (ms)
+ result: 1419.603000 (ms)
 
 
 > 1243:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: bubble
    time: mean
- result: 5.657000 (ms)
+ result: 5080.285000 (ms)
 
 
 > 1244:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: quicksort
    time: mean
- result: 0.335000 (ms)
+ result: 386.372000 (ms)
 
 
 > 1245:
 
 
    runs: 3
-   size: 1024 keys
+   size: 32767 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: qsort()
    time: mean
- result: 0.035000 (ms)
+ result: 0.852000 (ms)
 
 
 > 2000:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: -
@@ -2175,67 +2175,67 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: selection
    time: mean
- result: 124.690000 (ms)
+ result: 123946.305000 (ms)
 
 
 > 2002:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: insertion
    time: mean
- result: 72.871000 (ms)
+ result: 72589.105000 (ms)
 
 
 > 2003:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: bubble
    time: mean
- result: 524.419000 (ms)
+ result: 546878.950000 (ms)
 
 
 > 2004:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: quicksort
    time: mean
- result: 1.350000 (ms)
+ result: 60.403000 (ms)
 
 
 > 2005:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: unsorted
    sort: qsort()
    time: mean
- result: 1.228000 (ms)
+ result: 51.575000 (ms)
 
 
 > 2010:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: sorted
    sort: -
@@ -2247,67 +2247,58 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: sorted
    sort: selection
    time: mean
- result: 122.273000 (ms)
+ result: 122979.024000 (ms)
 
 
 > 2012:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: sorted
    sort: insertion
    time: mean
- result: 0.040000 (ms)
+ result: 1.268000 (ms)
 
 
 > 2013:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: sorted
    sort: bubble
    time: mean
- result: 284.180000 (ms)
+ result: 290746.555000 (ms)
 
 
 > 2014:
-
-
-   runs: 3
-   size: 10240 keys
-  range: [0 - 2147483647]
-  order: sorted
-   sort: quicksort
-   time: mean
- result: 120.773000 (ms)
 
 
 > 2015:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: sorted
    sort: qsort()
    time: mean
- result: 0.077000 (ms)
+ result: 2.719000 (ms)
 
 
 > 2020:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: -
@@ -2319,67 +2310,67 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: selection
    time: mean
- result: 123.335000 (ms)
+ result: 123009.779000 (ms)
 
 
 > 2022:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: insertion
    time: mean
- result: 0.104000 (ms)
+ result: 3.222000 (ms)
 
 
 > 2023:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: bubble
    time: mean
- result: 286.814000 (ms)
+ result: 290485.782000 (ms)
 
 
 > 2024:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: quicksort
    time: mean
- result: 76.046000 (ms)
+ result: 75435.628000 (ms)
 
 
 > 2025:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: mostly sorted
    sort: qsort()
    time: mean
- result: 0.629000 (ms)
+ result: 20.085000 (ms)
 
 
 > 2030:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: -
@@ -2391,67 +2382,58 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: selection
    time: mean
- result: 119.487000 (ms)
+ result: 120139.249000 (ms)
 
 
 > 2032:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: insertion
    time: mean
- result: 145.835000 (ms)
+ result: 145561.155000 (ms)
 
 
 > 2033:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: bubble
    time: mean
- result: 510.471000 (ms)
+ result: 561032.724000 (ms)
 
 
 > 2034:
-
-
-   runs: 3
-   size: 10240 keys
-  range: [0 - 2147483647]
-  order: sorted reversed
-   sort: quicksort
-   time: mean
- result: 130.945000 (ms)
 
 
 > 2035:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: sorted reversed
    sort: qsort()
    time: mean
- result: 0.384000 (ms)
+ result: 13.607000 (ms)
 
 
 > 2040:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: -
@@ -2463,67 +2445,67 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: selection
    time: mean
- result: 181.055000 (ms)
+ result: 218029.687000 (ms)
 
 
 > 2042:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: insertion
    time: mean
- result: 145.782000 (ms)
+ result: 163854.876000 (ms)
 
 
 > 2043:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: bubble
    time: mean
- result: 499.870000 (ms)
+ result: 526636.618000 (ms)
 
 
 > 2044:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: quicksort
    time: mean
- result: 55.078000 (ms)
+ result: 55570.395000 (ms)
 
 
 > 2045:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 2147483647]
   order: mostly sorted reversed
    sort: qsort()
    time: mean
- result: 0.755000 (ms)
+ result: 30.548000 (ms)
 
 
 > 2100:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: -
@@ -2535,67 +2517,67 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: selection
    time: mean
- result: 126.890000 (ms)
+ result: 122961.427000 (ms)
 
 
 > 2102:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: insertion
    time: mean
- result: 74.795000 (ms)
+ result: 71464.382000 (ms)
 
 
 > 2103:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: bubble
    time: mean
- result: 513.751000 (ms)
+ result: 542592.318000 (ms)
 
 
 > 2104:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: quicksort
    time: mean
- result: 2.827000 (ms)
+ result: 2160.108000 (ms)
 
 
 > 2105:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: unsorted
    sort: qsort()
    time: mean
- result: 0.487000 (ms)
+ result: 15.758000 (ms)
 
 
 > 2110:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: -
@@ -2607,67 +2589,67 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: selection
    time: mean
- result: 122.680000 (ms)
+ result: 128562.198000 (ms)
 
 
 > 2112:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: insertion
    time: mean
- result: 0.041000 (ms)
+ result: 1.351000 (ms)
 
 
 > 2113:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: bubble
    time: mean
- result: 283.572000 (ms)
+ result: 318777.370000 (ms)
 
 
 > 2114:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: quicksort
    time: mean
- result: 2.943000 (ms)
+ result: 2362.586000 (ms)
 
 
 > 2115:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: sorted
    sort: qsort()
    time: mean
- result: 0.194000 (ms)
+ result: 7.414000 (ms)
 
 
 > 2120:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: -
@@ -2679,67 +2661,67 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: selection
    time: mean
- result: 117.953000 (ms)
+ result: 135399.320000 (ms)
 
 
 > 2122:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: insertion
    time: mean
- result: 0.041000 (ms)
+ result: 1.577000 (ms)
 
 
 > 2123:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: bubble
    time: mean
- result: 282.373000 (ms)
+ result: 318838.541000 (ms)
 
 
 > 2124:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: quicksort
    time: mean
- result: 2.938000 (ms)
+ result: 2385.384000 (ms)
 
 
 > 2125:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted
    sort: qsort()
    time: mean
- result: 0.196000 (ms)
+ result: 7.474000 (ms)
 
 
 > 2130:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: -
@@ -2751,67 +2733,67 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: selection
    time: mean
- result: 122.872000 (ms)
+ result: 135650.419000 (ms)
 
 
 > 2132:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: insertion
    time: mean
- result: 143.950000 (ms)
+ result: 157692.098000 (ms)
 
 
 > 2133:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: bubble
    time: mean
- result: 497.163000 (ms)
+ result: 557880.492000 (ms)
 
 
 > 2134:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: quicksort
    time: mean
- result: 38.291000 (ms)
+ result: 37410.014000 (ms)
 
 
 > 2135:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: sorted reversed
    sort: qsort()
    time: mean
- result: 0.225000 (ms)
+ result: 8.039000 (ms)
 
 
 > 2140:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: -
@@ -2823,67 +2805,67 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: selection
    time: mean
- result: 123.857000 (ms)
+ result: 134889.237000 (ms)
 
 
 > 2142:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: insertion
    time: mean
- result: 138.110000 (ms)
+ result: 158302.402000 (ms)
 
 
 > 2143:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: bubble
    time: mean
- result: 498.058000 (ms)
+ result: 538475.904000 (ms)
 
 
 > 2144:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: quicksort
    time: mean
- result: 31.907000 (ms)
+ result: 34729.083000 (ms)
 
 
 > 2145:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [2147483583 - 2147483647]
   order: mostly sorted reversed
    sort: qsort()
    time: mean
- result: 0.203000 (ms)
+ result: 7.685000 (ms)
 
 
 > 2200:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: unsorted
    sort: -
@@ -2895,67 +2877,67 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: unsorted
    sort: selection
    time: mean
- result: 123.959000 (ms)
+ result: 123811.399000 (ms)
 
 
 > 2202:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: unsorted
    sort: insertion
    time: mean
- result: 73.598000 (ms)
+ result: 74722.743000 (ms)
 
 
 > 2203:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: unsorted
    sort: bubble
    time: mean
- result: 521.828000 (ms)
+ result: 538901.980000 (ms)
 
 
 > 2204:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: unsorted
    sort: quicksort
    time: mean
- result: 2.803000 (ms)
+ result: 2140.968000 (ms)
 
 
 > 2205:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: unsorted
    sort: qsort()
    time: mean
- result: 0.509000 (ms)
+ result: 15.003000 (ms)
 
 
 > 2210:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: sorted
    sort: -
@@ -2967,67 +2949,67 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: sorted
    sort: selection
    time: mean
- result: 123.877000 (ms)
+ result: 122136.506000 (ms)
 
 
 > 2212:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: sorted
    sort: insertion
    time: mean
- result: 0.040000 (ms)
+ result: 1.275000 (ms)
 
 
 > 2213:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: sorted
    sort: bubble
    time: mean
- result: 283.851000 (ms)
+ result: 288214.711000 (ms)
 
 
 > 2214:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: sorted
    sort: quicksort
    time: mean
- result: 3.863000 (ms)
+ result: 2144.668000 (ms)
 
 
 > 2215:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: sorted
    sort: qsort()
    time: mean
- result: 0.195000 (ms)
+ result: 6.047000 (ms)
 
 
 > 2220:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: mostly sorted
    sort: -
@@ -3039,67 +3021,67 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: mostly sorted
    sort: selection
    time: mean
- result: 120.214000 (ms)
+ result: 121952.304000 (ms)
 
 
 > 2222:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: mostly sorted
    sort: insertion
    time: mean
- result: 0.041000 (ms)
+ result: 1.265000 (ms)
 
 
 > 2223:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: mostly sorted
    sort: bubble
    time: mean
- result: 284.580000 (ms)
+ result: 288151.499000 (ms)
 
 
 > 2224:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: mostly sorted
    sort: quicksort
    time: mean
- result: 3.188000 (ms)
+ result: 2133.687000 (ms)
 
 
 > 2225:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: mostly sorted
    sort: qsort()
    time: mean
- result: 0.201000 (ms)
+ result: 6.055000 (ms)
 
 
 > 2230:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: sorted reversed
    sort: -
@@ -3111,67 +3093,67 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: sorted reversed
    sort: selection
    time: mean
- result: 122.529000 (ms)
+ result: 122108.875000 (ms)
 
 
 > 2232:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: sorted reversed
    sort: insertion
    time: mean
- result: 139.157000 (ms)
+ result: 142255.920000 (ms)
 
 
 > 2233:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: sorted reversed
    sort: bubble
    time: mean
- result: 497.108000 (ms)
+ result: 503591.036000 (ms)
 
 
 > 2234:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: sorted reversed
    sort: quicksort
    time: mean
- result: 37.252000 (ms)
+ result: 33882.805000 (ms)
 
 
 > 2235:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: sorted reversed
    sort: qsort()
    time: mean
- result: 0.201000 (ms)
+ result: 6.190000 (ms)
 
 
 > 2240:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: -
@@ -3183,58 +3165,58 @@
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: selection
    time: mean
- result: 123.603000 (ms)
+ result: 122042.366000 (ms)
 
 
 > 2242:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: insertion
    time: mean
- result: 138.645000 (ms)
+ result: 142950.961000 (ms)
 
 
 > 2243:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: bubble
    time: mean
- result: 500.697000 (ms)
+ result: 502681.886000 (ms)
 
 
 > 2244:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: quicksort
    time: mean
- result: 33.329000 (ms)
+ result: 34705.738000 (ms)
 
 
 > 2245:
 
 
    runs: 3
-   size: 10240 keys
+   size: 327670 keys
   range: [0 - 64]
   order: mostly sorted reversed
    sort: qsort()
    time: mean
- result: 0.204000 (ms)
+ result: 6.199000 (ms)
 
