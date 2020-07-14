@@ -20,7 +20,7 @@
   order: unsorted
    sort: selection
    time: mean
- result: 0.011753 (s)
+ result: 13.216000 (ms)
 
 
 > 0002:
@@ -32,7 +32,7 @@
   order: unsorted
    sort: insertion
    time: mean
- result: 0.007915 (s)
+ result: 7.376000 (ms)
 
 
 > 0003:
@@ -44,7 +44,7 @@
   order: unsorted
    sort: bubble
    time: mean
- result: 0.040104 (s)
+ result: 51.435000 (ms)
 
 
 > 0004:
@@ -56,7 +56,7 @@
   order: unsorted
    sort: quicksort
    time: mean
- result: 0.000294 (s)
+ result: 0.439000 (ms)
 
 
 > 0005:
@@ -68,7 +68,7 @@
   order: unsorted
    sort: qsort()
    time: mean
- result: 0.000350 (s)
+ result: 0.342000 (ms)
 
 
 > 0010:
@@ -92,7 +92,7 @@
   order: sorted
    sort: selection
    time: mean
- result: 0.010166 (s)
+ result: 13.118000 (ms)
 
 
 > 0012:
@@ -104,7 +104,7 @@
   order: sorted
    sort: insertion
    time: mean
- result: 0.000011 (s)
+ result: 0.015000 (ms)
 
 
 > 0013:
@@ -116,7 +116,7 @@
   order: sorted
    sort: bubble
    time: mean
- result: 0.022718 (s)
+ result: 32.000000 (ms)
 
 
 > 0014:
@@ -128,7 +128,7 @@
   order: sorted
    sort: quicksort
    time: mean
- result: 0.009184 (s)
+ result: 12.324000 (ms)
 
 
 > 0015:
@@ -140,7 +140,7 @@
   order: sorted
    sort: qsort()
    time: mean
- result: 0.000015 (s)
+ result: 0.030000 (ms)
 
 
 > 0020:
@@ -164,7 +164,7 @@
   order: mostly sorted
    sort: selection
    time: mean
- result: 0.010603 (s)
+ result: 12.772000 (ms)
 
 
 > 0022:
@@ -176,7 +176,7 @@
   order: mostly sorted
    sort: insertion
    time: mean
- result: 0.000032 (s)
+ result: 0.034000 (ms)
 
 
 > 0023:
@@ -188,7 +188,7 @@
   order: mostly sorted
    sort: bubble
    time: mean
- result: 0.022139 (s)
+ result: 31.243000 (ms)
 
 
 > 0024:
@@ -200,7 +200,7 @@
   order: mostly sorted
    sort: quicksort
    time: mean
- result: 0.005349 (s)
+ result: 8.207000 (ms)
 
 
 > 0025:
@@ -212,7 +212,7 @@
   order: mostly sorted
    sort: qsort()
    time: mean
- result: 0.000124 (s)
+ result: 0.178000 (ms)
 
 
 > 0030:
@@ -228,4 +228,2995 @@
 
 
 > 0031:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: selection
+   time: mean
+ result: 13.314000 (ms)
+
+
+> 0032:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: insertion
+   time: mean
+ result: 15.295000 (ms)
+
+
+> 0033:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: bubble
+   time: mean
+ result: 58.116000 (ms)
+
+
+> 0034:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: quicksort
+   time: mean
+ result: 13.877000 (ms)
+
+
+> 0035:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: qsort()
+   time: mean
+ result: 0.126000 (ms)
+
+
+> 0040:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 0041:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: selection
+   time: mean
+ result: 16.785000 (ms)
+
+
+> 0042:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: insertion
+   time: mean
+ result: 15.274000 (ms)
+
+
+> 0043:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: bubble
+   time: mean
+ result: 58.282000 (ms)
+
+
+> 0044:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: quicksort
+   time: mean
+ result: 5.534000 (ms)
+
+
+> 0045:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: qsort()
+   time: mean
+ result: 0.227000 (ms)
+
+
+> 0100:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: -
+   time: -
+ result: -
+
+
+> 0101:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: selection
+   time: mean
+ result: 13.138000 (ms)
+
+
+> 0102:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: insertion
+   time: mean
+ result: 8.266000 (ms)
+
+
+> 0103:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: bubble
+   time: mean
+ result: 51.898000 (ms)
+
+
+> 0104:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: quicksort
+   time: mean
+ result: 0.523000 (ms)
+
+
+> 0105:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: qsort()
+   time: mean
+ result: 0.164000 (ms)
+
+
+> 0110:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 0111:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: selection
+   time: mean
+ result: 13.904000 (ms)
+
+
+> 0112:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: insertion
+   time: mean
+ result: 0.014000 (ms)
+
+
+> 0113:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: bubble
+   time: mean
+ result: 32.034000 (ms)
+
+
+> 0114:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: quicksort
+   time: mean
+ result: 0.637000 (ms)
+
+
+> 0115:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: qsort()
+   time: mean
+ result: 0.106000 (ms)
+
+
+> 0120:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 0121:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: selection
+   time: mean
+ result: 13.361000 (ms)
+
+
+> 0122:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: insertion
+   time: mean
+ result: 0.014000 (ms)
+
+
+> 0123:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: bubble
+   time: mean
+ result: 29.990000 (ms)
+
+
+> 0124:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: quicksort
+   time: mean
+ result: 0.506000 (ms)
+
+
+> 0125:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: qsort()
+   time: mean
+ result: 0.069000 (ms)
+
+
+> 0130:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 0131:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: selection
+   time: mean
+ result: 13.335000 (ms)
+
+
+> 0132:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: insertion
+   time: mean
+ result: 14.734000 (ms)
+
+
+> 0133:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: bubble
+   time: mean
+ result: 57.091000 (ms)
+
+
+> 0134:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: quicksort
+   time: mean
+ result: 3.499000 (ms)
+
+
+> 0135:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: qsort()
+   time: mean
+ result: 0.071000 (ms)
+
+
+> 0140:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 0141:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: selection
+   time: mean
+ result: 13.362000 (ms)
+
+
+> 0142:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: insertion
+   time: mean
+ result: 16.164000 (ms)
+
+
+> 0143:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: bubble
+   time: mean
+ result: 54.909000 (ms)
+
+
+> 0144:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: quicksort
+   time: mean
+ result: 3.040000 (ms)
+
+
+> 0145:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: qsort()
+   time: mean
+ result: 0.086000 (ms)
+
+
+> 0200:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: -
+   time: -
+ result: -
+
+
+> 0201:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: selection
+   time: mean
+ result: 12.559000 (ms)
+
+
+> 0202:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: insertion
+   time: mean
+ result: 7.152000 (ms)
+
+
+> 0203:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: bubble
+   time: mean
+ result: 52.622000 (ms)
+
+
+> 0204:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: quicksort
+   time: mean
+ result: 0.464000 (ms)
+
+
+> 0205:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: qsort()
+   time: mean
+ result: 0.165000 (ms)
+
+
+> 0210:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 0211:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: sorted
+   sort: selection
+   time: mean
+ result: 12.742000 (ms)
+
+
+> 0212:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: sorted
+   sort: insertion
+   time: mean
+ result: 0.013000 (ms)
+
+
+> 0213:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: sorted
+   sort: bubble
+   time: mean
+ result: 31.640000 (ms)
+
+
+> 0214:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: sorted
+   sort: quicksort
+   time: mean
+ result: 0.501000 (ms)
+
+
+> 0215:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: sorted
+   sort: qsort()
+   time: mean
+ result: 0.066000 (ms)
+
+
+> 0220:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 0221:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: selection
+   time: mean
+ result: 12.577000 (ms)
+
+
+> 0222:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: insertion
+   time: mean
+ result: 0.014000 (ms)
+
+
+> 0223:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: bubble
+   time: mean
+ result: 31.035000 (ms)
+
+
+> 0224:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: quicksort
+   time: mean
+ result: 0.502000 (ms)
+
+
+> 0225:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: qsort()
+   time: mean
+ result: 0.068000 (ms)
+
+
+> 0230:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 0231:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: selection
+   time: mean
+ result: 14.223000 (ms)
+
+
+> 0232:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: insertion
+   time: mean
+ result: 15.516000 (ms)
+
+
+> 0233:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: bubble
+   time: mean
+ result: 55.257000 (ms)
+
+
+> 0234:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: quicksort
+   time: mean
+ result: 3.422000 (ms)
+
+
+> 0235:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: qsort()
+   time: mean
+ result: 0.073000 (ms)
+
+
+> 0240:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 0241:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: selection
+   time: mean
+ result: 15.396000 (ms)
+
+
+> 0242:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: insertion
+   time: mean
+ result: 16.432000 (ms)
+
+
+> 0243:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: bubble
+   time: mean
+ result: 53.160000 (ms)
+
+
+> 0244:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: quicksort
+   time: mean
+ result: 3.512000 (ms)
+
+
+> 0245:
+
+
+   runs: 3
+   size: 3276 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: qsort()
+   time: mean
+ result: 0.084000 (ms)
+
+
+> 1000:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: unsorted
+   sort: -
+   time: -
+ result: -
+
+
+> 1001:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: unsorted
+   sort: selection
+   time: mean
+ result: 1434.255000 (ms)
+
+
+> 1002:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: unsorted
+   sort: insertion
+   time: mean
+ result: 845.066000 (ms)
+
+
+> 1003:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: unsorted
+   sort: bubble
+   time: mean
+ result: 5734.631000 (ms)
+
+
+> 1004:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: unsorted
+   sort: quicksort
+   time: mean
+ result: 25.090000 (ms)
+
+
+> 1005:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: unsorted
+   sort: qsort()
+   time: mean
+ result: 2.057000 (ms)
+
+
+> 1010:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 1011:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: sorted
+   sort: selection
+   time: mean
+ result: 1260.780000 (ms)
+
+
+> 1012:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: sorted
+   sort: insertion
+   time: mean
+ result: 0.133000 (ms)
+
+
+> 1013:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: sorted
+   sort: bubble
+   time: mean
+ result: 2917.825000 (ms)
+
+
+> 1014:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: sorted
+   sort: quicksort
+   time: mean
+ result: 25.407000 (ms)
+
+
+> 1015:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: sorted
+   sort: qsort()
+   time: mean
+ result: 0.610000 (ms)
+
+
+> 1020:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: mostly sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 1021:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: mostly sorted
+   sort: selection
+   time: mean
+ result: 1240.850000 (ms)
+
+
+> 1022:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: mostly sorted
+   sort: insertion
+   time: mean
+ result: 0.137000 (ms)
+
+
+> 1023:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: mostly sorted
+   sort: bubble
+   time: mean
+ result: 2920.856000 (ms)
+
+
+> 1024:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: mostly sorted
+   sort: quicksort
+   time: mean
+ result: 24.620000 (ms)
+
+
+> 1025:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: mostly sorted
+   sort: qsort()
+   time: mean
+ result: 0.610000 (ms)
+
+
+> 1030:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 1031:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: selection
+   time: mean
+ result: 1243.555000 (ms)
+
+
+> 1032:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: insertion
+   time: mean
+ result: 1434.119000 (ms)
+
+
+> 1033:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: bubble
+   time: mean
+ result: 5080.678000 (ms)
+
+
+> 1034:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: quicksort
+   time: mean
+ result: 461.402000 (ms)
+
+
+> 1035:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: qsort()
+   time: mean
+ result: 0.678000 (ms)
+
+
+> 1040:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 1041:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: selection
+   time: mean
+ result: 1242.228000 (ms)
+
+
+> 1042:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: insertion
+   time: mean
+ result: 1472.082000 (ms)
+
+
+> 1043:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: bubble
+   time: mean
+ result: 5083.110000 (ms)
+
+
+> 1044:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: quicksort
+   time: mean
+ result: 385.357000 (ms)
+
+
+> 1045:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: qsort()
+   time: mean
+ result: 0.750000 (ms)
+
+
+> 1100:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: -
+   time: -
+ result: -
+
+
+> 1101:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: selection
+   time: mean
+ result: 1233.487000 (ms)
+
+
+> 1102:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: insertion
+   time: mean
+ result: 718.976000 (ms)
+
+
+> 1103:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: bubble
+   time: mean
+ result: 5443.255000 (ms)
+
+
+> 1104:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: quicksort
+   time: mean
+ result: 24.039000 (ms)
+
+
+> 1105:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: qsort()
+   time: mean
+ result: 1.458000 (ms)
+
+
+> 1110:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 1111:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: selection
+   time: mean
+ result: 1235.543000 (ms)
+
+
+> 1112:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: insertion
+   time: mean
+ result: 0.127000 (ms)
+
+
+> 1113:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: bubble
+   time: mean
+ result: 2906.190000 (ms)
+
+
+> 1114:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: quicksort
+   time: mean
+ result: 25.032000 (ms)
+
+
+> 1115:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: qsort()
+   time: mean
+ result: 0.609000 (ms)
+
+
+> 1120:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 1121:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: selection
+   time: mean
+ result: 1233.270000 (ms)
+
+
+> 1122:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: insertion
+   time: mean
+ result: 0.166000 (ms)
+
+
+> 1123:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: bubble
+   time: mean
+ result: 2910.410000 (ms)
+
+
+> 1124:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: quicksort
+   time: mean
+ result: 25.211000 (ms)
+
+
+> 1125:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: qsort()
+   time: mean
+ result: 0.822000 (ms)
+
+
+> 1130:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 1131:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: selection
+   time: mean
+ result: 1235.478000 (ms)
+
+
+> 1132:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: insertion
+   time: mean
+ result: 1429.985000 (ms)
+
+
+> 1133:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: bubble
+   time: mean
+ result: 5064.309000 (ms)
+
+
+> 1134:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: quicksort
+   time: mean
+ result: 460.373000 (ms)
+
+
+> 1135:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: qsort()
+   time: mean
+ result: 0.930000 (ms)
+
+
+> 1140:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 1141:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: selection
+   time: mean
+ result: 1243.141000 (ms)
+
+
+> 1142:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: insertion
+   time: mean
+ result: 1432.857000 (ms)
+
+
+> 1143:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: bubble
+   time: mean
+ result: 5046.529000 (ms)
+
+
+> 1144:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: quicksort
+   time: mean
+ result: 391.292000 (ms)
+
+
+> 1145:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: qsort()
+   time: mean
+ result: 0.747000 (ms)
+
+
+> 1200:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: -
+   time: -
+ result: -
+
+
+> 1201:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: selection
+   time: mean
+ result: 1228.714000 (ms)
+
+
+> 1202:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: insertion
+   time: mean
+ result: 713.635000 (ms)
+
+
+> 1203:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: bubble
+   time: mean
+ result: 5494.714000 (ms)
+
+
+> 1204:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: quicksort
+   time: mean
+ result: 24.088000 (ms)
+
+
+> 1205:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: qsort()
+   time: mean
+ result: 1.504000 (ms)
+
+
+> 1210:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 1211:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: sorted
+   sort: selection
+   time: mean
+ result: 1228.051000 (ms)
+
+
+> 1212:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: sorted
+   sort: insertion
+   time: mean
+ result: 0.183000 (ms)
+
+
+> 1213:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: sorted
+   sort: bubble
+   time: mean
+ result: 2909.796000 (ms)
+
+
+> 1214:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: sorted
+   sort: quicksort
+   time: mean
+ result: 25.021000 (ms)
+
+
+> 1215:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: sorted
+   sort: qsort()
+   time: mean
+ result: 0.610000 (ms)
+
+
+> 1220:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 1221:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: selection
+   time: mean
+ result: 1237.460000 (ms)
+
+
+> 1222:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: insertion
+   time: mean
+ result: 0.127000 (ms)
+
+
+> 1223:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: bubble
+   time: mean
+ result: 2909.294000 (ms)
+
+
+> 1224:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: quicksort
+   time: mean
+ result: 24.844000 (ms)
+
+
+> 1225:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: qsort()
+   time: mean
+ result: 0.612000 (ms)
+
+
+> 1230:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 1231:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: selection
+   time: mean
+ result: 1234.732000 (ms)
+
+
+> 1232:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: insertion
+   time: mean
+ result: 1429.897000 (ms)
+
+
+> 1233:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: bubble
+   time: mean
+ result: 5073.018000 (ms)
+
+
+> 1234:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: quicksort
+   time: mean
+ result: 453.681000 (ms)
+
+
+> 1235:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: qsort()
+   time: mean
+ result: 0.629000 (ms)
+
+
+> 1240:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 1241:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: selection
+   time: mean
+ result: 1231.139000 (ms)
+
+
+> 1242:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: insertion
+   time: mean
+ result: 1419.603000 (ms)
+
+
+> 1243:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: bubble
+   time: mean
+ result: 5080.285000 (ms)
+
+
+> 1244:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: quicksort
+   time: mean
+ result: 386.372000 (ms)
+
+
+> 1245:
+
+
+   runs: 3
+   size: 32767 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: qsort()
+   time: mean
+ result: 0.852000 (ms)
+
+
+> 2000:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: unsorted
+   sort: -
+   time: -
+ result: -
+
+
+> 2001:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: unsorted
+   sort: selection
+   time: mean
+ result: 123946.305000 (ms)
+
+
+> 2002:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: unsorted
+   sort: insertion
+   time: mean
+ result: 72589.105000 (ms)
+
+
+> 2003:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: unsorted
+   sort: bubble
+   time: mean
+ result: 546878.950000 (ms)
+
+
+> 2004:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: unsorted
+   sort: quicksort
+   time: mean
+ result: 60.403000 (ms)
+
+
+> 2005:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: unsorted
+   sort: qsort()
+   time: mean
+ result: 51.575000 (ms)
+
+
+> 2010:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 2011:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: sorted
+   sort: selection
+   time: mean
+ result: 122979.024000 (ms)
+
+
+> 2012:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: sorted
+   sort: insertion
+   time: mean
+ result: 1.268000 (ms)
+
+
+> 2013:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: sorted
+   sort: bubble
+   time: mean
+ result: 290746.555000 (ms)
+
+
+> 2014:
+
+
+> 2015:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: sorted
+   sort: qsort()
+   time: mean
+ result: 2.719000 (ms)
+
+
+> 2020:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: mostly sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 2021:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: mostly sorted
+   sort: selection
+   time: mean
+ result: 123009.779000 (ms)
+
+
+> 2022:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: mostly sorted
+   sort: insertion
+   time: mean
+ result: 3.222000 (ms)
+
+
+> 2023:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: mostly sorted
+   sort: bubble
+   time: mean
+ result: 290485.782000 (ms)
+
+
+> 2024:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: mostly sorted
+   sort: quicksort
+   time: mean
+ result: 75435.628000 (ms)
+
+
+> 2025:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: mostly sorted
+   sort: qsort()
+   time: mean
+ result: 20.085000 (ms)
+
+
+> 2030:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 2031:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: selection
+   time: mean
+ result: 120139.249000 (ms)
+
+
+> 2032:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: insertion
+   time: mean
+ result: 145561.155000 (ms)
+
+
+> 2033:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: bubble
+   time: mean
+ result: 561032.724000 (ms)
+
+
+> 2034:
+
+
+> 2035:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: sorted reversed
+   sort: qsort()
+   time: mean
+ result: 13.607000 (ms)
+
+
+> 2040:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 2041:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: selection
+   time: mean
+ result: 218029.687000 (ms)
+
+
+> 2042:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: insertion
+   time: mean
+ result: 163854.876000 (ms)
+
+
+> 2043:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: bubble
+   time: mean
+ result: 526636.618000 (ms)
+
+
+> 2044:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: quicksort
+   time: mean
+ result: 55570.395000 (ms)
+
+
+> 2045:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 2147483647]
+  order: mostly sorted reversed
+   sort: qsort()
+   time: mean
+ result: 30.548000 (ms)
+
+
+> 2100:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: -
+   time: -
+ result: -
+
+
+> 2101:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: selection
+   time: mean
+ result: 122961.427000 (ms)
+
+
+> 2102:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: insertion
+   time: mean
+ result: 71464.382000 (ms)
+
+
+> 2103:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: bubble
+   time: mean
+ result: 542592.318000 (ms)
+
+
+> 2104:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: quicksort
+   time: mean
+ result: 2160.108000 (ms)
+
+
+> 2105:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: unsorted
+   sort: qsort()
+   time: mean
+ result: 15.758000 (ms)
+
+
+> 2110:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 2111:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: selection
+   time: mean
+ result: 128562.198000 (ms)
+
+
+> 2112:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: insertion
+   time: mean
+ result: 1.351000 (ms)
+
+
+> 2113:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: bubble
+   time: mean
+ result: 318777.370000 (ms)
+
+
+> 2114:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: quicksort
+   time: mean
+ result: 2362.586000 (ms)
+
+
+> 2115:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: sorted
+   sort: qsort()
+   time: mean
+ result: 7.414000 (ms)
+
+
+> 2120:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 2121:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: selection
+   time: mean
+ result: 135399.320000 (ms)
+
+
+> 2122:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: insertion
+   time: mean
+ result: 1.577000 (ms)
+
+
+> 2123:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: bubble
+   time: mean
+ result: 318838.541000 (ms)
+
+
+> 2124:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: quicksort
+   time: mean
+ result: 2385.384000 (ms)
+
+
+> 2125:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted
+   sort: qsort()
+   time: mean
+ result: 7.474000 (ms)
+
+
+> 2130:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 2131:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: selection
+   time: mean
+ result: 135650.419000 (ms)
+
+
+> 2132:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: insertion
+   time: mean
+ result: 157692.098000 (ms)
+
+
+> 2133:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: bubble
+   time: mean
+ result: 557880.492000 (ms)
+
+
+> 2134:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: quicksort
+   time: mean
+ result: 37410.014000 (ms)
+
+
+> 2135:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: sorted reversed
+   sort: qsort()
+   time: mean
+ result: 8.039000 (ms)
+
+
+> 2140:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 2141:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: selection
+   time: mean
+ result: 134889.237000 (ms)
+
+
+> 2142:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: insertion
+   time: mean
+ result: 158302.402000 (ms)
+
+
+> 2143:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: bubble
+   time: mean
+ result: 538475.904000 (ms)
+
+
+> 2144:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: quicksort
+   time: mean
+ result: 34729.083000 (ms)
+
+
+> 2145:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [2147483583 - 2147483647]
+  order: mostly sorted reversed
+   sort: qsort()
+   time: mean
+ result: 7.685000 (ms)
+
+
+> 2200:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: -
+   time: -
+ result: -
+
+
+> 2201:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: selection
+   time: mean
+ result: 123811.399000 (ms)
+
+
+> 2202:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: insertion
+   time: mean
+ result: 74722.743000 (ms)
+
+
+> 2203:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: bubble
+   time: mean
+ result: 538901.980000 (ms)
+
+
+> 2204:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: quicksort
+   time: mean
+ result: 2140.968000 (ms)
+
+
+> 2205:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: unsorted
+   sort: qsort()
+   time: mean
+ result: 15.003000 (ms)
+
+
+> 2210:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 2211:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: sorted
+   sort: selection
+   time: mean
+ result: 122136.506000 (ms)
+
+
+> 2212:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: sorted
+   sort: insertion
+   time: mean
+ result: 1.275000 (ms)
+
+
+> 2213:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: sorted
+   sort: bubble
+   time: mean
+ result: 288214.711000 (ms)
+
+
+> 2214:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: sorted
+   sort: quicksort
+   time: mean
+ result: 2144.668000 (ms)
+
+
+> 2215:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: sorted
+   sort: qsort()
+   time: mean
+ result: 6.047000 (ms)
+
+
+> 2220:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: -
+   time: -
+ result: -
+
+
+> 2221:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: selection
+   time: mean
+ result: 121952.304000 (ms)
+
+
+> 2222:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: insertion
+   time: mean
+ result: 1.265000 (ms)
+
+
+> 2223:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: bubble
+   time: mean
+ result: 288151.499000 (ms)
+
+
+> 2224:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: quicksort
+   time: mean
+ result: 2133.687000 (ms)
+
+
+> 2225:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: mostly sorted
+   sort: qsort()
+   time: mean
+ result: 6.055000 (ms)
+
+
+> 2230:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 2231:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: selection
+   time: mean
+ result: 122108.875000 (ms)
+
+
+> 2232:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: insertion
+   time: mean
+ result: 142255.920000 (ms)
+
+
+> 2233:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: bubble
+   time: mean
+ result: 503591.036000 (ms)
+
+
+> 2234:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: quicksort
+   time: mean
+ result: 33882.805000 (ms)
+
+
+> 2235:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: sorted reversed
+   sort: qsort()
+   time: mean
+ result: 6.190000 (ms)
+
+
+> 2240:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: -
+   time: -
+ result: -
+
+
+> 2241:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: selection
+   time: mean
+ result: 122042.366000 (ms)
+
+
+> 2242:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: insertion
+   time: mean
+ result: 142950.961000 (ms)
+
+
+> 2243:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: bubble
+   time: mean
+ result: 502681.886000 (ms)
+
+
+> 2244:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: quicksort
+   time: mean
+ result: 34705.738000 (ms)
+
+
+> 2245:
+
+
+   runs: 3
+   size: 327670 keys
+  range: [0 - 64]
+  order: mostly sorted reversed
+   sort: qsort()
+   time: mean
+ result: 6.199000 (ms)
 
