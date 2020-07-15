@@ -169,7 +169,7 @@ void swap(long* r, int i, int j)
 
     buffer = r[i];
     r[i]   = r[j];
-    r[j]    = buffer;
+    r[j]   = buffer;
 
     return;
 }
